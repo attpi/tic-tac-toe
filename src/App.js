@@ -1,7 +1,7 @@
-import React from "react";
+//import React from "react";
 import { useState } from "react";
 
-console.log("Loading Square component");
+//console.log("Loading Square component");
 
 function Square({ value, onSquareClick }) {
   //const [value, setValue] = useState(null);
@@ -28,14 +28,23 @@ export default function Board() {
       nextSquares[i] = "O";
     }
 
-    nextSquares[i] = "X";
+    //nextSquares[i] = "X";
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
-    console.log("clicked!");
+    //console.log("clicked!");
+  }
+
+  const winner = calculateWinner(squares);
+  let status;
+  if (winner) {
+    status = "winner: " + winner;
+  } else {
+    status = "Next player: " + (xIsNext ? "X" : "O");
   }
 
   return (
     <>
+      <div className="status">{status}</div>
       <div className="board-row">
         <Square value={square[0]} onSquareClick={() => handleClick(0)} />
         <Square value={square[1]} onSquareClick={() => handleClick(1)} />
