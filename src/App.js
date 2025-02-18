@@ -4,7 +4,7 @@ import { useState } from "react";
 console.log("Loading Square component");
 
 function Square({ value, onSquareClick }) {
-  const [value, setValue] = useState(null);
+  //const [value, setValue] = useState(null);
 
   return (
     <button className="square" onClick={onSquareClick}>
