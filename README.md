@@ -1,5 +1,3 @@
-<<<<<<< HEAD
 # tic-tac-toe
-=======
-# Tic-Tac-Toe
->>>>>>> 2466b6a (Initial)
+
+- 來源：[官方文件](https://zh-hant.react.dev/learn/tutorial-tic-tac-toe)
