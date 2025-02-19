@@ -1,3 +1,9 @@
+.game {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  justify-content: center;
+  margin: 100px;
+}
+
 * {
   box-sizing: border-box;
 }
