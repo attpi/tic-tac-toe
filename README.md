@@ -2,6 +2,8 @@
 
 - 來源：[官方文件](https://zh-hant.react.dev/learn/tutorial-tic-tac-toe)
 
+---
+
 # TODO
 
 1. 僅對當前步驟顯示“您在第#步…”而不是按鈕。
